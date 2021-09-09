@@ -1,4 +1,4 @@
-var list = document.getElementsByClassName('ytd-thumbnail-overlay-time-status-renderer');
+var list = document.querySelectorAll('span.ytd-thumbnail-overlay-time-status-renderer');
 var time = 0;
 
 function toS(hms) {
